@@ -29,12 +29,14 @@
                 <div class="navbar-header">
                     <a class="navbar-brand" href="{% url 'mapminder_app:index' %}">MapMinder home</a>
                 </div>
-                <form action="" method="POST">
+                <form id="form_select" action="" method="POST">
                     {% csrf_token %}
-                    <select name="chart_id">
+                    <select name="chart_id" id="select_chart">
                         {% for chart in charts %}
-                        <option value="{{chart.id}}">{{ chart.shortname }}</option>
+                            <option value="{{chart.id}}" {% if chart_id == chart.id %} selected {% endif %}>{{ chart.shortname }}</option>
                         {% endfor %}
+
+                        
                     </select>
                     <button type="submit">View chart</button>
                 </form>
@@ -79,6 +81,15 @@
             </div>
         </div>
         {% endif %}
+        
+        <script>
+            let select_chart = document.querySelector("#select_chart")
+            select_chart.onchange = function() {
+                let form_select = document.querySelector("#form_select")
+                form_select.submit()    
+
+            }
+        </script>
         
     </body>
 </html>
