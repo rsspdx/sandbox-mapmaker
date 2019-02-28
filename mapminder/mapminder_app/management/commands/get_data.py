@@ -15,8 +15,8 @@ class Command(BaseCommand):
           {'varname': 'access_to_electricity_pct_of_population', 'long_name': 'Access to Electricity, % of Population', 'short_name': 'Access to Electricity, % of Population', 'source':'World Bank, World Development Indicators'},
           {'varname': 'adolescent_fertility_rate_resid', 'long_name': 'Adolescent Fertility Rate (per 1,000 Women Age 15-19), Residuals', 'short_name': 'Adolescent Fertility Rate, Residuals', 'source':'World Bank, World Development Indicators'},
           {'varname': 'adolescent_fertility_rate', 'long_name': 'Adolescent Fertility Rate (per 1,000 Women Age 15-19)', 'short_name': 'Adolescent Fertility Rate', 'source':'World Bank, World Development Indicators'},
-          {'varname': 'asylum_seekers_resid', 'long_name': 'Asylum Seekers, Residuals', 'short_name': 'Asylum Seekers, residuals', 'source':'United Nations High Commission for Refugees, Population Statistics'},
-          {'varname': 'asylum_seekers', 'long_name': 'Asylum Seekers', 'short_name': 'Asylum Seekers', 'source':'United Nations High Commission for Refugees, Population Statistics'},
+          {'varname': 'asylum_seekers_resid', 'long_name': 'Asylum Seekers, Residuals', 'short_name': 'Asylum Seekers, Residuals', 'source':'United Nations High Commission for Refugees, Population Statistics'},
+          {'varname': 'asylum_seekers', 'long_name': 'Asylum Seekers, 2015', 'short_name': 'Asylum Seekers', 'source':'United Nations High Commission for Refugees, Population Statistics'},
           {'varname': 'biodiversity_protected_areas_resid', 'long_name': 'Biodiversity: Protected Areas, % of Land Area, Residuals', 'short_name': 'Protected Areas, % of Land Area, Residuals', 'source':'World Bank, World Development Indicators'},
           {'varname': 'biodiversity_protected_areas', 'long_name': 'Biodiversity: Protected Areas, % of Land Area', 'short_name': 'Protected Areas, % of Land Area', 'source':'World Bank, World Development Indicators'},
           {'varname': 'central_govt_debt_pct_gdp_resid', 'long_name': 'Central Government Debt, % of Gross Domestic Product, Residuals from Regression on GDP per Capita', 'short_name': 'Central Government Debt, Residuals', 'source':'World Bank, World Development Indicators'},
@@ -101,9 +101,9 @@ class Command(BaseCommand):
           {'varname': 'use_internet_pct_pop_resid', 'long_name': 'Internet Use, % of Population,  Residuals from Regression on GDP per Capita', 'short_name': 'Internet Use, % of Population,  Residuals', 'source':'World Bank, World Development Indicators'},
           {'varname': 'use_internet_pct_pop', 'long_name': 'Internet Use, % of Population', 'short_name': 'Internet Use, % of Population', 'source':'World Bank, World Development Indicators'},
           {'varname': 'asylum_seekers_pct_pop_resid', 'long_name': 'Asylum Seekers per Population, %, Residuals', 'short_name': 'Asylum Seekers, %, Residuals', 'source':'United Nations High Commission for Refugees, Population Statistics'},
-          {'varname': 'asylum_seekers_pct_pop', 'long_name': 'Asylum Seekers per Population, %, 2015', 'short_name': 'Asylum Seekers per Population, %', 'source':'United Nations High Commission for Refugees, Population Statistics'},
+          {'varname': 'asylum_seekers_pct_pop', 'long_name': 'Asylum Seekers per Population, %, 2015', 'short_name': 'Asylum Seekers, % of Population', 'source':'United Nations High Commission for Refugees, Population Statistics'},
           {'varname': 'refugees_pct_pop_resid', 'long_name': 'Refugees per Population, Residuals from Regression on GDP per Capita', 'short_name': 'Refugees, %, Residuals', 'source':'United Nations High Commission for Refugees, Population Statistics'},
-          {'varname': 'refugees_pct_pop', 'long_name': 'Refugees per Population', 'short_name': 'Refugees per Population, %, 2015', 'source':'United Nations High Commission for Refugees, Population Statistics'},
+          {'varname': 'refugees_pct_pop', 'long_name': 'Refugees per Population, %, 2015', 'short_name': 'Refugees, % of Population', 'source':'United Nations High Commission for Refugees, Population Statistics'},
           ]
 
         for item in chart_data:
