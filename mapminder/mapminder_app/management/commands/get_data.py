@@ -100,10 +100,10 @@ class Command(BaseCommand):
           {'varname': 'urbpop', 'long_name': 'Urban Population, % of Total', 'short_name': 'Urban Population, % of Total', 'source':'World Bank, World Development Indicators'},
           {'varname': 'use_internet_pct_pop_resid', 'long_name': 'Internet Use, % of Population,  Residuals from Regression on GDP per Capita', 'short_name': 'Internet Use, % of Population,  Residuals', 'source':'World Bank, World Development Indicators'},
           {'varname': 'use_internet_pct_pop', 'long_name': 'Internet Use, % of Population', 'short_name': 'Internet Use, % of Population', 'source':'World Bank, World Development Indicators'},
-          #{'varname': 'asylum_seekers_per_pop', 'long_name': 'Asylum Seekers per Population', 'short_name': 'Asylum Seekers per Population', 'source':'United Nations High Commission for Refugees, Population Statistics'},
-          #{'varname': 'asylum_seekers_per_pop', 'long_name': 'Asylum Seekers per Population', 'short_name': 'Asylum Seekers per Population', 'source':'United Nations High Commission for Refugees, Population Statistics'},
-          #{'varname': 'refugees_per_pop_resid', 'long_name': 'Refugees per Population, Residuals from Regression on GDP per Capita', 'short_name': 'Refugees per Population', 'source':'United Nations High Commission for Refugees, Population Statistics'},
-          #{'varname': 'refugees_per_pop', 'long_name': 'Refugees per Population', 'short_name': 'Refugees per Population', 'source':'United Nations High Commission for Refugees, Population Statistics'},
+          {'varname': 'asylum_seekers_pct_pop_resid', 'long_name': 'Asylum Seekers per Population, %, Residuals', 'short_name': 'Asylum Seekers, %, Residuals', 'source':'United Nations High Commission for Refugees, Population Statistics'},
+          {'varname': 'asylum_seekers_pct_pop', 'long_name': 'Asylum Seekers per Population, %, 2015', 'short_name': 'Asylum Seekers per Population, %', 'source':'United Nations High Commission for Refugees, Population Statistics'},
+          {'varname': 'refugees_pct_pop_resid', 'long_name': 'Refugees per Population, Residuals from Regression on GDP per Capita', 'short_name': 'Refugees, %, Residuals', 'source':'United Nations High Commission for Refugees, Population Statistics'},
+          {'varname': 'refugees_pct_pop', 'long_name': 'Refugees per Population', 'short_name': 'Refugees per Population, %, 2015', 'source':'United Nations High Commission for Refugees, Population Statistics'},
           ]
 
         for item in chart_data:
