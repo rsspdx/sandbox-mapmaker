@@ -29,4 +29,4 @@ def explanation(request):
         chart_html = ''
     charts = Chart.objects.order_by('shortname')
     context = {'charts': charts, 'chart_html': chart_html, "chart_id": chart_id}
-    return render(request, 'mapminder_app/index.html', context)
+    return render(request, 'mapminder_app/regression_explanation.html', context)
