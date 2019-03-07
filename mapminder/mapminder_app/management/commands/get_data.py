@@ -104,9 +104,11 @@ class Command(BaseCommand):
           {'varname': 'asylum_seekers_pct_pop', 'long_name': 'Asylum Seekers per Population, %, 2015', 'short_name': 'Asylum Seekers, % of Population', 'source':'United Nations High Commission for Refugees, Population Statistics'},
           {'varname': 'refugees_pct_pop_resid', 'long_name': 'Refugees per Population, Residuals from Regression on GDP per Capita', 'short_name': 'Refugees, %, Residuals', 'source':'United Nations High Commission for Refugees, Population Statistics'},
           {'varname': 'refugees_pct_pop', 'long_name': 'Refugees per Population, %, 2015', 'short_name': 'Refugees, % of Population', 'source':'United Nations High Commission for Refugees, Population Statistics'},
-          # {'varname': 'fdi_net_pct_gdp', 'long_name': 'Foreign Direct Investment, % of Gross Domestic Product, 2015', 'short_name': 'FDI, % of GDP', 'source':'World Bank, World Development Indicators'},
-          # {'varname': 'fdi_net_pct_gdp_resid', 'long_name': 'Foreign Direct Investment, % of GDP, Residuals from Regression GDP per Capita', 'short_name': 'FDI, % of GDP, Residuals', 'source':'World Bank, World Development Indicators'},
-
+          {'varname': 'civil_liberties', 'long_name': 'Civil Liberties (Ranking, 1-7, 1 = High)', 'short_name': 'Civil Liberties', 'source': 'Transparency International, Freedom in the World'},
+		  {'varname': 'civil_liberties_resid', 'long_name': 'Civil Liberties (Ranking, 1-7, 1 = High), Residuals from Regression on GDP per Capita', 'short_name': 'Civil Liberties, Residuals', 'source': 'Transparency International, Freedom in the World'},
+          {'varname': 'fdi_net_pct_gdp', 'long_name': 'Foreign Direct Investment, % of Gross Domestic Product, 2015', 'short_name': 'FDI, % of GDP', 'source':'World Bank, World Development Indicators'},
+          {'varname': 'fdi_net_pct_gdp_resid', 'long_name': 'Foreign Direct Investment, % of GDP, Residuals from Regression GDP per Capita', 'short_name': 'FDI, % of GDP, Residuals', 'source':'World Bank, World Development Indicators'},
+		  
           ]
 
         for item in chart_data:
